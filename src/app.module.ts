@@ -1,6 +1,4 @@
 import { Module } from '@nestjs/common';
-
-import { GradeModule } from './grade/grade.module';
 import { CarTableModule } from './car_table/car_table.module';
 import { CredentialsLibraryModule } from './credentials_library/credentials_library.module';
 import { CredentialPerStaffModule } from './credential_per_staff/credential_per_staff.module';
@@ -13,7 +11,16 @@ import { StaffAccountModule } from './staff_account/staff_account.module';
 
 
 @Module({
-  imports: [ GradeModule, CarTableModule, CredentialsLibraryModule, CredentialPerStaffModule, MissionAllowancePerGradeModule, MissionMembersPaymentsModule, MissionReasonsModule, MissionTransactionModule, RolesModule, StaffAccountModule],
+  imports: 
+  [ CarTableModule, 
+    CredentialsLibraryModule, 
+    CredentialPerStaffModule, 
+    MissionAllowancePerGradeModule, 
+    MissionMembersPaymentsModule, 
+    MissionReasonsModule, 
+    MissionTransactionModule, 
+    RolesModule, 
+    StaffAccountModule],
   
 })
 export class AppModule {}
