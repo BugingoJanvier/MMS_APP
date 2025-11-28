@@ -5,6 +5,6 @@ export interface carTable{
     dateOfManufacture: Date;
     startingKm: number;
     startDate: Date;
-    created_at: Date;
-    updated_at: Date;
+    createdAt: Date;
+    updatedAt: Date;
 }

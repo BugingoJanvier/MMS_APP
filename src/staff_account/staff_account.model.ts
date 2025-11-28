@@ -1,8 +1,8 @@
-export interface staff_account {
+export interface staffAccount {
     
     Staff_Id: number;
     Account_Number: string;
     Bank: string;
-    created_at: Date;
-    updated_at: Date;
+    createdAt: Date;
+    updatedAt: Date;
 }

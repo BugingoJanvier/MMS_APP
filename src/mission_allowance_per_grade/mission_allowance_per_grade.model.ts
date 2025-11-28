@@ -1,4 +1,4 @@
-export interface missionAllowancePerGrade {
+export interface Allowance {
     id: number;
     Policy_Number: string;
     Policy_Date: Date;

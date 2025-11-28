@@ -1,6 +1,5 @@
 export interface missionTransaction {
-    TransactionId: String;
-    MissionId: number;
+    MissionId: string;
     StaffId: number;
     Amount: number;
     TransactionDate: Date;

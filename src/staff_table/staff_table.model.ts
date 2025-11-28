@@ -1,4 +1,4 @@
-export interface StaffTable {
+export interface Staff {
 Staff_Id: number;
 F_name: string;
 L_name: string;

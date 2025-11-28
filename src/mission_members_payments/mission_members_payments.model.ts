@@ -1,4 +1,4 @@
-export interface mission_members_payments {
+export interface member {
         Mission_ID: number;
         Staff_Id: number;
         Done_On: Date;
