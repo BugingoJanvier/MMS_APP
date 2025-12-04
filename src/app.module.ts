@@ -8,6 +8,7 @@ import { MissionReasonsModule } from './mission_reasons/mission_reasons.module';
 import { MissionTransactionModule } from './mission_transaction/mission_transaction.module';
 import { RolesModule } from './roles/roles.module';
 import { StaffAccountModule } from './staff_account/staff_account.module';
+import { UserModule } from './user/user.module';
 
 
 @Module({
@@ -20,7 +21,9 @@ import { StaffAccountModule } from './staff_account/staff_account.module';
     MissionReasonsModule, 
     MissionTransactionModule, 
     RolesModule, 
-    StaffAccountModule],
+    StaffAccountModule, UserModule,
+    
+  ],
   
 })
 export class AppModule {}
